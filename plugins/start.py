@@ -15,15 +15,15 @@ from helper.database import daily as daily_
 from helper.date import check_expi
 import os
 
-CHANNEL = os.environ.get('CHANNEL', "")
+CHANNEL = os.environ.get('CHANNEL', "-1001856961053")
 STRING = os.environ.get("STRING", "")
-ADMIN = int(os.environ.get("ADMIN", 1484670284))
-bot_username = os.environ.get("BOT_USERNAME","GangsterBaby_renamer_BOT")
-log_channel = int(os.environ.get("LOG_CHANNEL", ""))
-token = os.environ.get('TOKEN', '')
+ADMIN = int(os.environ.get("ADMIN", 1987289639))
+bot_username = os.environ.get("BOT_USERNAME","bamel_file_renamer_bot")
+log_channel = int(os.environ.get("LOG_CHANNEL", "-1001543295404"))
+token = os.environ.get('TOKEN', '5971971751:AAEJYE9EGQw7RvtLE1dluzSifgLEy-HlvL4')
 botid = token.split(':')[0]
 FLOOD = 500
-LAZY_PIC = os.environ.get("LAZY_PIC", "")
+LAZY_PIC = os.environ.get("LAZY_PIC", "https://te.legra.ph/file/e5c4beaa5af8c1a8bd216.jpg")
 
 
 # Part of Day --------------------
@@ -50,11 +50,11 @@ async def start(client, message):
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
-                                      [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
-                                      [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
-                                      InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda2')],
-                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/Bamel_Backup")],
+                                      [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@BamelMoviesOfficial")],
+                                      [InlineKeyboardButton("Support Group", url='https://t.me/Bamel_Backup'),
+                                      InlineKeyboardButton("Movie Channel", url='https://t.me/newnetflixmovies_Premium')],
+                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://t.me/Bamel_Group/302')]
                                       ]))
         return
     if id:
@@ -64,11 +64,11 @@ async def start(client, message):
                 await message.reply_photo(photo=LAZY_PIC,
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
-                                              [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
-                                              [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
-                                             InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda2')],
-                                             [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/Bamel_Backup")],
+                                              [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@BamelMoviesOfficial")],
+                                              [InlineKeyboardButton("Support Group", url='https://t.me/Bamel_Backup'),
+                                             InlineKeyboardButton("Movie Channel", url='https://t.me/newnetflixmovies_Premium')],
+                                             [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://t.me/Bamel_Group/302')]
                                           ]))
             except:
                 return
@@ -84,11 +84,11 @@ async def start(client, message):
 	**Document Or Video** and enter new filename to rename it__
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
-                                          [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
-                                          [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
-                                          InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda2')],
-                                          [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/Bamel_Backup")],
+                                          [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@BamelMoviesOfficial")],
+                                          [InlineKeyboardButton("Support Group", url='https://t.me/Bamel_Backup'),
+                                          InlineKeyboardButton("Movie Channel", url='https://t.me/newnetflixmovies_Premium')],
+                                          [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://t.me/Bamel_Group/302')]
                                           ]))
     
 
@@ -126,11 +126,11 @@ async def send_doc(client, message):
     except:
         await message.reply_text(text=f"Hello dear {message.from_user.first_name}  **we are currently working on this issue**\n\nPlease try to rename files from your another account.\nBecause this BOT can't rename file sent by some ids.\n\nIf you are an **ADMIN** Don't worry ! here we have a solution for you dear {message.from_user.first_name }.\n\nPlease use \n👉 `/addpremium your_other_userid` 👈 to use premium feautres\n\n",
                                   reply_markup=InlineKeyboardMarkup([
-                                                                     [InlineKeyboardButton("🦋 Contact LazyDeveloper 🦋", url='https://telegram.me/LazyDeveloper')],
-                                                                     [InlineKeyboardButton("🔺 Watch Tutorial 🔺", url='https://youtube.com/@LazyDeveloperr')],
-                                                                     [InlineKeyboardButton("🦋 Visit Channel  ", url='https://t.me/LazyDeveloper'),
-                                                                     InlineKeyboardButton("  Support Group 🦋", url='https://t.me/LazyPrincessSupport')],
-                                                                     [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                                                     [InlineKeyboardButton("🦋 Contact Developer 🦋", url='https://telegram.me/Bamel_Shab')],
+                                                                     [InlineKeyboardButton("🔺 Watch Tutorial 🔺", url='https://youtube.com/@BamelMoviesOfficial')],
+                                                                     [InlineKeyboardButton("🦋 Visit Channel  ", url='https://t.me/Bamel_Backup'),
+                                                                     InlineKeyboardButton("  Support Group 🦋", url='https://t.me/Bamel_Backup')],
+                                                                     [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://t.me/Bamel_Group/302')]
                                                                     ]))
         await message.reply_text(text=f"🦋")
         return 
