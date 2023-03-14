@@ -8,9 +8,9 @@
 
     "scripts": {
 
-        "build": "echo \"No build specified\" && exit 1",
+        "build": "echo \"1.9.7\" && exit 1",
 
-        "test": "echo \"No test specified\" && exit 1",
+        "test": "echo \"1.9.7\" && exit 1",
 
         "start": "node index.js"
 
