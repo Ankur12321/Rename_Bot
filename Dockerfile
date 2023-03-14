@@ -1,17 +1,11 @@
+FROM python:3.10
 
-FROM python:latest
+WORKDIR /ankur
 
-WORKDIR /app
+COPY requirements.txt ./
 
-COPY requirements.txt /app/
+RUN pip install -r requirements.txt
 
-RUN apt update && apt upgrade -y
-RUN apt install git python3-pip ffmpeg -y
+copy . .
 
-COPY . .
-
-RUN pip3 install -r requirements.txt
-
-COPY . /app
-
-CMD python3 bot.py
+CMD ["python3", "bot.py"]
