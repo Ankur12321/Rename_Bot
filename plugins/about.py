@@ -1,6 +1,6 @@
 import os 
 from pyrogram import Client, filters
-token = os.environ.get('TOKEN','')
+token = os.environ.get('TOKEN','5971971751:AAEJYE9EGQw7RvtLE1dluzSifgLEy-HlvL4')
 botid = token.split(':')[0]
 from helper.database import botdata, find_one, total_user
 
@@ -12,4 +12,4 @@ async def start(client,message):
 	data = find_one(int(botid))
 	total_rename = data["total_rename"]
 	total_size = data["total_size"]
-	await message.reply_text(f"Origional BOT :- <a href='https://t.me/GangsterBaby_renamer_BOT'>Gangster Baby</a>\nCreater :- <a href='https://t.me/LazyDeveloper'>🦋LazyDeveloper🦋</a>\nLanguage :- Python3\nLibrary :- Pyrogram 2.0\nServer :- KOYEB\nTotal Renamed File :- {total_rename}\nTotal Size Renamed :- {humanbytes(int(total_size))} \n\n Thank you **<a href='https://t.me/mRiderDM'>LazyDeveloperr</a>** for your hard work \n\n❤️ we love you <a href='https://t.me/mRiderDM'>**LazyDeveloper**</a> ❤️",quote=True)
+	await message.reply_text(f"Origional BOT :- <a href='https://t.me/bamel_file_renamer_bot'>Bamel File Renamer</a>\nCreater :- <a href='https://t.me/Bamel_Shab'>🦋LazyDeveloper🦋</a>\nLanguage :- Python3\nLibrary :- Pyrogram 2.0\nServer :- KOYEB\nTotal Renamed File :- {total_rename}\nTotal Size Renamed :- {humanbytes(int(total_size))} \n\n Thank you **<a href='https://t.me/Bamel_Shab'>Bamel_Shabr</a>** for your hard work \n\n❤️ we love you <a href='https://t.me/Bamel_Shab'>**Bamel_Shab**</a> ❤️",quote=True)
