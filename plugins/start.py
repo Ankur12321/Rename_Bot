@@ -64,7 +64,7 @@ async def start(client, message):
                 await message.reply_photo(photo=LAZY_PIC,
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("🎥 Movie Channel 🎥", url="https://t.me/newnetflixmovies_Premium)],
+                                             [[InlineKeyboardButton("🎥 Movie Channel 🎥", url="https://t.me/newnetflixmovies_Premium")],
                                               [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@BamelMoviesOfficial")],
                                               [InlineKeyboardButton("Support Group", url='https://t.me/Bamel_Backup'),
                                              InlineKeyboardButton("🔺 Update Channel 🔺", url='https://t.me/Bamel_Backup')],
