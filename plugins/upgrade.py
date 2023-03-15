@@ -10,7 +10,7 @@ async def upgrade(bot,update):
 	
 	**🪙 Silver Tier 🪙** 
 	Daily  Upload  limit 10GB
-	Price Rs 66  ind /🌎 0.8$  per Month
+	Price Rs 50  ind /🌎 0.8$  per Month
 	
 	**💫 Gold Tier 💫**
 	Daily Upload limit 50GB
@@ -18,7 +18,7 @@ async def upgrade(bot,update):
 	
 	**💎 Diamond 💎**
 	Daily Upload limit 100GB
-	Price Rs 206  ind /🌎 2.5$  per Month
+	Price Rs 150  ind /🌎 2.5$  per Month
 	
 	
 	Pay Using Upi I'd ```9728231973@ybl```
@@ -28,7 +28,7 @@ async def upgrade(bot,update):
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/Bamel_Shab")], 
         			[InlineKeyboardButton("Paytm",url = "https://t.me/Bamel_Group/302"),
-        			InlineKeyboardButton("Paytm",url = "https://t.me/Bamel_Group/302")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("Phonepe",url = "https://t.me/Bamel_Group/302")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -40,7 +40,7 @@ async def upgradecm(bot,message):
 	
 	**🪙 Silver Tier 🪙** 
 	Daily  Upload  limit 10GB
-	Price Rs 66  ind /🌎 0.8$  per Month
+	Price Rs 50  ind /🌎 0.8$  per Month
 	
 	**💫 Gold Tier 💫**
 	Daily Upload limit 50GB
@@ -48,7 +48,7 @@ async def upgradecm(bot,message):
 	
 	**💎 Diamond 💎**
 	Daily Upload limit 100GB
-	Price Rs 206  ind /🌎 2.5$  per Month
+	Price Rs 150  ind /🌎 2.5$  per Month
 	
 	
 	Pay Using Upi I'd ```9728231973@ybl```
