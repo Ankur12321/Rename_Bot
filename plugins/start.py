@@ -16,7 +16,7 @@ from helper.date import check_expi
 import os
 
 CHANNEL = os.environ.get('CHANNEL', "-1001856961053")
-STRING = os.environ.get("STRING", "")
+STRING = os.environ.get("STRING", "BQFPPzoAjmRiU_7vE2yAKnizU4-JIzZ8IgsddWK2rTyu_zhd81XL0qCLR6w9L1nnhYb_YqUAV1S2DScVhyxdjC4N0ncIYFWSNki7j9v2YjgJPX7D0Z7l2rJ8AuqWAgzU8ELKekjJejyYU5cq_dVi6l0PaoZZv6MVNVYKjD4D-qaxklYkre03pAN9Z5NDWPiisN6fHF7O3emiivEh8t4dGOWBcIQtTlBFQRXldYj5AOx4yPC8voGes4hkUGXlYakr39ji9VKWkrxmu-rxi85in0Vt4MK_TEFbSgq2_fE_73b0M3BaDvPtL6X9nA5kx1d6V8ziTXXFKCi6KT3OFbzBGe7iqhXXawAAAAFj9Q6nAQ")
 ADMIN = int(os.environ.get("ADMIN", 1987289639))
 bot_username = os.environ.get("BOT_USERNAME","bamel_file_renamer_bot")
 log_channel = int(os.environ.get("LOG_CHANNEL", "-1001543295404"))
@@ -30,11 +30,11 @@ LAZY_PIC = os.environ.get("LAZY_PIC", "https://te.legra.ph/file/a5f387534683a7f0
 currentTime = datetime.datetime.now()
 
 if currentTime.hour < 12:
-    wish = "❤️ Good morning sweetheart ❤️"
+    wish = "❤️ Good morning ❤️"
 elif 12 <= currentTime.hour < 12:
-    wish = '🤍 Good afternoon my Love 🤍'
+    wish = '🤍 Good afternoon 🤍'
 else:
-    wish = '🦋 Good evening baby 🦋'
+    wish = '🦋 Good evening 🦋'
 
 # -------------------------------
 
@@ -50,10 +50,10 @@ async def start(client, message):
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/Bamel_Backup")],
+                                      [[InlineKeyboardButton("🎥 Movie Channel 🎥", url="https://t.me/newnetflixmovies_Premium")],
                                       [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@BamelMoviesOfficial")],
                                       [InlineKeyboardButton("Support Group", url='https://t.me/Bamel_Backup'),
-                                      InlineKeyboardButton("Movie Channel", url='https://t.me/newnetflixmovies_Premium')],
+                                      InlineKeyboardButton("🔺 Update Channel 🔺", url='https://t.me/Bamel_Backup')],
                                       [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://t.me/Bamel_Group/302')]
                                       ]))
         return
