@@ -132,7 +132,7 @@ async def send_doc(client, message):
                                                                      InlineKeyboardButton("  Support Group 🦋", url='https://t.me/Bamel_Backup')],
                                                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://t.me/Bamel_Group/302')]
 
-        await message.reply_text(text=f"🦋")
+        await message.reply_text(text=f"")
         return 
 
     c_time = time.time()
