@@ -64,10 +64,10 @@ async def start(client, message):
                 await message.reply_photo(photo=LAZY_PIC,
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/Bamel_Backup")],
+                                             [[InlineKeyboardButton("🎥 Movie Channel 🎥", url="https://t.me/newnetflixmovies_Premium)],
                                               [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@BamelMoviesOfficial")],
                                               [InlineKeyboardButton("Support Group", url='https://t.me/Bamel_Backup'),
-                                             InlineKeyboardButton("Movie Channel", url='https://t.me/newnetflixmovies_Premium')],
+                                             InlineKeyboardButton("🔺 Update Channel 🔺", url='https://t.me/Bamel_Backup')],
                                              [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://t.me/Bamel_Group/302')]
                                           ]))
             except:
