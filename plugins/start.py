@@ -124,23 +124,23 @@ async def send_doc(client, message):
         daily = user_deta["daily"]
         user_type = user_deta["usertype"]
     except:
-        await message.reply_text(text=f"Hello dear {message.from_user.first_name}  **we are currently working on this issue**\n\nPlease try to rename files from your another account.\nBecause this BOT can't rename file sent by some ids.\n\nIf you are an **ADMIN** Don't worry ! here we have a solution for you dear {message.from_user.first_name }.\n\nPlease use \n👉 `/addpremium your_other_userid` 👈 to use premium feautres\n\n",
+        await message.reply_text(text=f"",
                                   reply_markup=InlineKeyboardMarkup([
                                                                      [InlineKeyboardButton("🦋 Contact Developer 🦋", url='https://telegram.me/Bamel_Shab')],
                                                                      [InlineKeyboardButton("🔺 Watch Tutorial 🔺", url='https://youtube.com/@BamelMoviesOfficial')],
                                                                      [InlineKeyboardButton("🦋 Visit Channel  ", url='https://t.me/Bamel_Backup'),
                                                                      InlineKeyboardButton("  Support Group 🦋", url='https://t.me/Bamel_Backup')],
                                                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://t.me/Bamel_Group/302')]
-                                                                    ]))
+
         await message.reply_text(text=f"🦋")
         return 
 
     c_time = time.time()
 
     if user_type == "Free":
-        LIMIT = 600
+        LIMIT = 60
     else:
-        LIMIT = 50
+        LIMIT = 1
     then = used_date + LIMIT
     left = round(then - c_time)
     conversion = datetime.timedelta(seconds=left)
